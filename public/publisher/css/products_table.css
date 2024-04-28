@@ -1,0 +1,204 @@
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 0;
+    --bs-card-border-color: rgba(0, 0, 0, .125);
+    --bs-card-border-radius: 1rem;
+    --bs-card-box-shadow: 0 20px 27px 0 rgba(0, 0, 0, .05);
+    --bs-card-inner-border-radius: 1rem;
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: #fff;
+    --bs-card-bg: #fff;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+
+.dataTable-table {
+    max-width: 100%;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.dataTable-sorter {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+}
+
+.dataTable-sorter:after, .dataTable-sorter:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 4px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    opacity: .2;
+}
+
+.dataTable-sorter:before {
+    border-top: 4px solid #000;
+    bottom: 0;
+}
+
+.dataTable-sorter:after {
+    border-bottom: 4px solid #000;
+    border-top: 4px solid transparent;
+    top: 0;
+}
+
+.dataTable-wrapper .dataTable-container .table thead tr th {
+    opacity: .7;
+    font-weight: bolder;
+    color: #8392ab;
+    text-transform: uppercase;
+    font-size: .65rem;
+}
+
+.dataTable-table tbody td, .dataTable-table tbody th, .dataTable-table tfoot td, .dataTable-table tfoot th, .dataTable-table thead td, .dataTable-table thead th {
+    vertical-align: middle !important;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.73em;
+    margin-bottom: .125rem
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.73em
+}
+
+.form-check-reverse {
+    padding-right: 1.73em;
+    padding-left: 0;
+    text-align: right
+}
+
+.form-check-reverse .form-check-input {
+    float: right;
+    margin-right: -1.73em;
+    margin-left: 0
+}
+
+.form-check-input {
+    width: 1.23em;
+    height: 1.23em;
+    margin-top: .135em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    border: none;
+    print-color-adjust: exact;
+    transition: background-color .25s ease, border-color .25s ease, background-position .15s ease-in-out, opacity .15s ease-out, box-shadow .15s ease-in-out
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .35rem
+}
+
+.form-check-input[type=radio] {
+    border-radius: 50%
+}
+
+.form-check-input:active {
+    filter: brightness(99%)
+}
+
+.form-check-input:checked {
+    background-color: transparent;
+    border-color: transparent
+}
+
+.form-check-input:checked[type=checkbox], .form-check-input:checked[type=radio] {
+    background-image: linear-gradient(310deg, #141727, #3a416f)
+}
+
+.form-check:not(.form-switch) .form-check-input[type="checkbox"]:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    position: absolute;
+    content: "\f00c";
+    color: #FFF;
+    top: 0;
+    left: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.dataTable-pagination ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.dataTable-pagination li {
+    list-style: none;
+    float: left;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list li.active a {
+    background-image: linear-gradient(310deg, #7928ca, #ff0080);
+    color: #ffffff;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8392ab;
+    padding: 0;
+    margin: 0 3px;
+    border: 1px solid #dee2e6;
+    border-radius: 50% !important;
+    width: 36px;
+    height: 36px;
+    font-size: .875rem;
+    margin-left: 0;
+}
+
+.dataTable-table tbody td, .dataTable-table tbody th, .dataTable-table tfoot td, .dataTable-table tfoot th, .dataTable-table thead td, .dataTable-table thead th {
+    vertical-align: middle!important;
+}
+
+.badge{
+    text-transform: uppercase;
+}
+.badge-danger {
+    color: #bd0000;
+    background-color: #fc9797;
+}
+
+.badge-success {
+    color: #67b108;
+    background-color: #cdf59b;
+}
+.badge-sm {
+    padding: 0.45em 0.775em;
+    font-size: .65em;
+    border-radius: 0.25rem;
+}

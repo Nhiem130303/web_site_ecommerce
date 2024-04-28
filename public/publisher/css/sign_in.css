@@ -1,0 +1,66 @@
+.pb-11 {
+    padding-bottom: 14rem !important;
+}
+
+.mask {
+    opacity: 0.6 !important;
+}
+
+.z-index-0 {
+    z-index: 0 !important;
+}
+
+.mt-lg-n10 {
+    margin-top: -12rem !important;
+}
+
+.mt-md-n11 {
+    margin-top: -14rem !important;
+}
+
+.mt-n10 {
+    margin-top: -12rem !important;
+}
+
+.card-header, .card-footer {
+    background: unset;
+    border: 0;
+}
+
+.form-switch .form-check-input:focus {
+    box-shadow: none;
+}
+
+
+.form-switch {
+    padding-left: 3rem
+}
+
+.form-switch .form-check-input {
+    width: 2.5rem;
+    margin-left: -3rem;
+    background-image: none;
+    background-position: 0;
+    border-radius: 2.5rem;
+    transition: background-color .25s ease, border-color .25s ease, background-position .15s ease-in-out, opacity .15s ease-out, box-shadow .15s ease-in-out
+}
+
+.form-switch .form-check-input:focus {
+    background-image: none
+}
+
+.form-switch .form-check-input:checked {
+    background-position: 100%;
+    background-image: none
+}
+
+.form-switch.form-check-reverse {
+    padding-right: 3rem;
+    padding-left: 0
+}
+
+.form-switch.form-check-reverse .form-check-input {
+    margin-right: -3rem;
+    margin-left: 0
+}
+

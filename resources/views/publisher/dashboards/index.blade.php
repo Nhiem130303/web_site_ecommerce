@@ -1,0 +1,1 @@
+@extends('publisher.layout.layout')

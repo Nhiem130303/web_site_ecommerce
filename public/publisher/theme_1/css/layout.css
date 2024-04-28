@@ -1,0 +1,27 @@
+.pb-7{
+    padding-bottom: 5rem !important;
+}
+
+.z-index-3{
+    z-index: 3;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.color-white {
+    color: white;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.bg-gradient-primary {
+    background-image: linear-gradient(310deg, #7928ca, #ff0080);
+}
